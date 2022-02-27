@@ -2,10 +2,10 @@ module.exports = {
   ci: {
     collect: {
       url: [
-        "https://localhost/",
+        "http://localhost:7000",
       ],
       numberOfRuns: 1,
-      staticDistDir: "/public"
+      startServerCommand: "light-server -s . -p 7000"
     },
     assert: {
       preset: "lighthouse:recommended",
