@@ -1,0 +1,33 @@
+{
+  "name": "kaiwanyawit-chawankul.github.io.git",
+  "version": "1.0.0",
+  "description": "This is my personal website",
+  "main": "lighthouserc.build.js",
+  "dependencies": {},
+  "devDependencies": {
+    "body-parser": "1.19.0",
+    "compression": "^1.7.4",
+    "express": "4.17.1",
+    "imagemin": "7.0.1",
+    "imagemin-gifsicle": "7.0.0",
+    "imagemin-jpegtran": "7.0.0",
+    "imagemin-pngquant": "9.0.1",
+    "imagemin-svgo": "8.0.0"
+  },
+  "scripts": {
+    "start": "light-server -s . -p 7000",
+    "imagemin": "node ./tools/imageOptimizer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiwanyawit-chawankul/kaiwanyawit-chawankul.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaiwanyawit-chawankul/kaiwanyawit-chawankul.github.io/issues"
+  },
+  "homepage": "https://kaiwanyawit-chawankul.github.io"
+}

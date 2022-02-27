@@ -18,5 +18,11 @@ npm install -g light-server
 
 ## To run the web for local dev
 ```
-light-server -s . -p 7000
+npm run start
+```
+
+## Optimize the images by using [imageOptimizer.js](https://github.com/toddhgardner/perf-training-website)
+
+```
+npm run imagemin
 ```
