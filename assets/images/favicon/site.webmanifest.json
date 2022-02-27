@@ -1,0 +1,32 @@
+{
+    "background_color": "#ffffff",
+    "description": "personal website, test, lighthouse, performance, optimization",
+    "dir": "ltr",
+    "display": "standalone",
+    "name": "kaiwanyawit-chawankul.github",
+    "orientation": "any",
+    "scope": "/",
+    "short_name": "kaiwanyawit-chawankul.github",
+    "start_url": "/",
+    "theme_color": "#ffffff",
+    "categories": [],
+    "screenshots": [],
+    "icons": [
+        {
+            "src": "https://kaiwanyawit-chawankul.github.io/assets/images/favicon/favicon-32x32.min.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "https://kaiwanyawit-chawankul.github.io/assets/images/favicon/favicon-16x16.min.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "https://kaiwanyawit-chawankul.github.io/assets/images/favicon/apple-touch-icon.min.png",
+            "type": "image/png",
+            "sizes": "180x180"
+        }
+    ],
+    "shortcuts": []
+}
