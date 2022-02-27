@@ -2,10 +2,10 @@ module.exports = {
   ci: {
     collect: {
       url: [
-        "https://localhost/",
+        "https://kaiwanyawit-chawankul.github.io/",
       ],
       numberOfRuns: 1,
-      staticDistDir: "/public"
+      staticDistDir: "/"
     },
     assert: {
       preset: "lighthouse:recommended",
