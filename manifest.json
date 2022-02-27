@@ -26,6 +26,11 @@
             "src": "https://kaiwanyawit-chawankul.github.io/assets/images/favicon/apple-touch-icon.min.png",
             "type": "image/png",
             "sizes": "180x180"
+        },
+        {
+            "src": "https://kaiwanyawit-chawankul.github.io/assets/images/favicon/favicon-512x512.min.png",
+            "type": "image/png",
+            "sizes": "512x512"
         }
     ],
     "shortcuts": []
