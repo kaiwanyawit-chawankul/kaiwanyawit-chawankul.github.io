@@ -5,3 +5,7 @@ This is my personal website
 ```
 lhci autorun
 ```
+
+```
+lhci autorun --config lighthouserc.build.js
+```
