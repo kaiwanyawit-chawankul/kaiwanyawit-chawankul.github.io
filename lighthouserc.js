@@ -5,6 +5,7 @@ module.exports = {
           "https://kaiwanyawit-chawankul.github.io/",
         ],
         numberOfRuns: 1,
+        staticDistDir: "/"
       },
       assert: {
         preset: "lighthouse:recommended",
