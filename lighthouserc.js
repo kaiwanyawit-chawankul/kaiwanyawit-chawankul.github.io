@@ -11,7 +11,8 @@ module.exports = {
       preset: "lighthouse:recommended",
     },
     upload: {
-      target: 'lhci',
+      target: 'filesystem',
+      outputDir: '.lhci-result',
       serverBaseUrl: 'https://peaceful-earth-32428.herokuapp.com/',
       token: 'LHCI_TOKEN', // could also use LHCI_TOKEN variable instead
     },
