@@ -26,3 +26,14 @@ npm run start
 ```
 npm run imagemin
 ```
+
+## To get the shar for the scripts
+```
+cat ./assets/js/index.js | openssl dgst -sha384 -binary | openssl base64 -A
+cat ./assets/mui-0.10.3/js/mui.min.js | openssl dgst -sha384 -binary | openssl base64 -A
+
+#or
+
+shasum -b -a 384 ./assets/js/index.js | awk '{ print $1 }' | xxd -r -p | base64
+shasum -b -a 384 ./assets/mui-0.10.3/js/mui.min.js | awk '{ print $1 }' | xxd -r -p | base64
+```
